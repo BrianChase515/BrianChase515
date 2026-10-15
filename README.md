@@ -1,61 +1,45 @@
 # Hi, I'm Brian Chase
 
-I build practical AI and analytics systems that turn fragmented customer and operational signals into clearer decisions.
+**AI solutions architect.** I design the plumbing that lets AI agents do real work: capturing how
+people actually do a task, turning it into something a model can read, and putting human review
+around everything the model does.
 
-My work focuses on the layer between raw data and business action:
+## What I work on
 
-- Predictive customer experience and decision intelligence
-- Voice-of-customer and conversation analytics
-- Synthetic customer research and simulation
-- Knowledge-grounded workforce enablement
-- Deterministic AI orchestration and validation
-- Operational friction and value-realization analysis
+- **Human-to-agent handoff:** turning demonstrated work into structured, replayable task specs
+- **Agent tooling and MCP:** giving models safe, scoped access to the context they need
+- **Human-in-the-loop systems:** audit trails, review checkpoints, and feedback that improves the next run
+- **Local-first, privacy-first AI:** redaction, exclusion and data boundaries built in, not bolted on
 
-## Featured Projects
+## Featured project
 
-### Predictive CX Decision Intelligence
-A forecasting and decision-support system spanning pre-period planning outlooks, in-period forecasts, operational pressure detection, recovery sensitivity, and model-learning controls.
+### [tasktrace](https://github.com/BrianChase515/tasktrace)
+Record a task on your Mac once and get one compact trace an AI agent can understand and replicate.
+Every click is captured with ranked locators (accessibility element, on-screen text, relative and
+absolute position), the effect it caused, the values that vary between runs, and the person's own
+notes on *why*. Served to agents over MCP. Password fields and password managers are never recorded.
 
-### Synthetic Customer Intelligence Lab
-Transforms synthetic feedback patterns into privacy-safe customer composites for policy and process hypothesis testing, then reuses those profiles in stateful service-training simulations.
+`Python` · `macOS Accessibility` · `MCP` · `on-device OCR`
 
-### Business Unit Persona System
-Combines reusable AI personas with business-unit-specific knowledge, procedures, specialist roles, training behaviors, and escalation hierarchies.
+## How I build
 
-### Customer Value Leakage Engine
-Identifies where expected customer value breaks down across onboarding, digital activation, service handoffs, early product use, and expectation alignment.
-
-### Transcript Intelligence Pipeline
-Converts noisy service conversations into normalized speaker turns, privacy-safe evidence, operational classifications, customer-effort signals, and recommended actions.
-
-### Feedback Taxonomy and Action Engine
-Turns unstructured feedback into a governed taxonomy, classification-quality audit, friction scoreboard, and measurable 30/90-day action plan.
-
-## How I Build
-
-I separate probabilistic language generation from deterministic controls whenever the work requires reliability.
-
-My projects commonly include:
+I keep probabilistic generation separate from deterministic control wherever reliability matters:
 
 - Explicit data and evidence boundaries
-- Transparent confidence or priority logic
-- Reproducible synthetic demonstrations
-- Structured validation and failure handling
-- Human-review checkpoints
-- Executive-ready outputs
-- Clear distinctions between evidence, inference, and scenario modeling
+- Structured validation, with failures that stop instead of guess
+- Human review checkpoints and auditable decisions
+- Reproducible demos on synthetic data
+- Clear lines between evidence, inference, and assumption
 
-## Portfolio Safety
+## Portfolio safety
 
-The public repositories on this profile use fictional organizations, synthetic datasets, independently created business rules, and clean-room implementations. They contain no employer, customer, or confidential information.
+Public repositories here use fictional organizations, synthetic data and clean-room implementations.
+They contain no employer, customer or confidential information.
 
-## Current Focus
+## Support my work
 
-I am interested in senior and lead opportunities across:
+<!-- PAYPAL DONATE LINK GOES HERE -->
 
-- AI Product Management
-- AI Enablement and Adoption
-- Customer Success and CX Analytics
-- Decision Intelligence
-- Operational Analytics
-- Applied AI Solutions
+## Open to
+
+Senior and lead roles in AI solutions architecture, applied AI, and agent platforms.
